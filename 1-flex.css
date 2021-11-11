@@ -1,0 +1,108 @@
+/* Nada Shawky Omer */
+/* SEC 5 */
+/* CS */
+body{
+    background-color: rgb(177 175 175 / 23%)
+}
+.nav{
+    background-color: rgb(29, 25, 25);
+    color: white;
+    margin: -8px;
+    width: 100%;
+}
+.nav .all{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+.nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding-left: 4px;
+}
+
+.all1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.all1 .right{
+    width: 40%;
+}
+
+.all1 .left{
+    width: 60%;
+    float: left;
+}
+.all1 .left .top .klam ,.all1 .left .bottom .klam  {
+    padding-left: 24px;
+}
+.all1 .left .top ,.all1 .left .bottom {
+    background-color: white;
+    height: 23rem;
+    margin-bottom: 15px;
+}
+.all1 .right{
+    width: 39%;
+    float: right;
+    margin-top: -6px; 
+    overflow: hidden; 
+    margin-top: 2.5px;  
+}
+.all1 .right >div{
+    background-color: white;
+}
+.all1 .right .top {
+    height: 12rem;
+}
+.all1 .right img{
+    width: 38%;
+    display: block;
+    padding-bottom: 6px;
+
+}
+.all1 .right .klam{
+    padding-left: 15px;
+}
+.all1 .right .bottom .klam h2{
+    padding-top: 10px;
+}
+
+
+
+footer{
+    clear: both;
+    background-color: #8f8c8cb3;
+    text-align: center;
+    font-size: 26px;
+    margin: 0 -9px 0px;
+}
+
+@media (max-width: 575px) { 
+    .all1 .left .top, .all1 .left .bottom{
+        height: 30rem;
+    }
+    .all1 .left img{
+        width:150px ;
+    }
+    .all .right{
+        width: 60%;
+        float: none;
+    }
+ }
+
+@media (max-width: 767px) { 
+    .all1 .left .top, .all1 .left .bottom{
+        height: 26rem;
+    }
+    .all .right{
+        width: 60%;
+        float: none;
+    }
+ }
+
+/* @media (max-width: 991.98px) { 
+
+}  */
+
